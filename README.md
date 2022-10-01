@@ -1,6 +1,4 @@
-# Vowel_recognition
-
-CS 566 - SPEECH PROCESSING
+# CS 566 - SPEECH PROCESSING
 Assignment 4 - Vowel Recognition
 =================================
 
