@@ -1,0 +1,53 @@
+﻿Build started 29-09-2022 23:09:32.
+     1>Project "C:\Users\91785\Documents\CS566 A1\vowel_recognition\vowel_recognition\vowel_recognition.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\91785\Documents\CS566 A1\vowel_recognition\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\vowel_recognition.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\vowel_recognition.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\vowel_recognition.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt vowel_recognition.cpp
+         vowel_recognition.cpp
+     1>c:\users\91785\documents\cs566 a1\vowel_recognition\vowel_recognition\vowel_recognition.cpp(86): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\91785\documents\cs566 a1\vowel_recognition\vowel_recognition\vowel_recognition.cpp(87): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\91785\documents\cs566 a1\vowel_recognition\vowel_recognition\vowel_recognition.cpp(190): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\91785\documents\cs566 a1\vowel_recognition\vowel_recognition\vowel_recognition.cpp(215): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\91785\documents\cs566 a1\vowel_recognition\vowel_recognition\vowel_recognition.cpp(286): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\91785\documents\cs566 a1\vowel_recognition\vowel_recognition\vowel_recognition.cpp(298): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\91785\documents\cs566 a1\vowel_recognition\vowel_recognition\vowel_recognition.cpp(336): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\91785\documents\cs566 a1\vowel_recognition\vowel_recognition\vowel_recognition.cpp(360): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\91785\documents\cs566 a1\vowel_recognition\vowel_recognition\vowel_recognition.cpp(361): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\91785\documents\cs566 a1\vowel_recognition\vowel_recognition\vowel_recognition.cpp(388): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+     1>c:\users\91785\documents\cs566 a1\vowel_recognition\vowel_recognition\vowel_recognition.cpp(206): warning C4715: 'getDCShift' : not all control paths return a value
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\vowel_recognition.exe.embed.manifest.res" Debug\vowel_recognition_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\91785\Documents\CS566 A1\vowel_recognition\Debug\vowel_recognition.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\vowel_recognition.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\91785\Documents\CS566 A1\vowel_recognition\Debug\vowel_recognition.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\91785\Documents\CS566 A1\vowel_recognition\Debug\vowel_recognition.lib" /MACHINE:X86 Debug\vowel_recognition.exe.embed.manifest.res
+         Debug\stdafx.obj
+         Debug\vowel_recognition.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\vowel_recognition.exe.embed.manifest" /manifest Debug\vowel_recognition.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\vowel_recognition.exe.embed.manifest.res" Debug\vowel_recognition_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\91785\Documents\CS566 A1\vowel_recognition\Debug\vowel_recognition.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\vowel_recognition.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\91785\Documents\CS566 A1\vowel_recognition\Debug\vowel_recognition.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\91785\Documents\CS566 A1\vowel_recognition\Debug\vowel_recognition.lib" /MACHINE:X86 Debug\vowel_recognition.exe.embed.manifest.res
+         Debug\stdafx.obj
+         Debug\vowel_recognition.obj
+         vowel_recognition.vcxproj -> C:\Users\91785\Documents\CS566 A1\vowel_recognition\Debug\vowel_recognition.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\vowel_recognition.unsuccessfulbuild".
+         Touching "Debug\vowel_recognition.lastbuildstate".
+     1>Done Building Project "C:\Users\91785\Documents\CS566 A1\vowel_recognition\vowel_recognition\vowel_recognition.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.20
