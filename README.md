@@ -1,8 +1,6 @@
 # Vowel_recognition
 
 CS 566 - SPEECH PROCESSING
-Name - Prerit Tudu
-Roll no. - 190101065
 Assignment 4 - Vowel Recognition
 =================================
 
